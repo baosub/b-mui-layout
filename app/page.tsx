@@ -3,6 +3,8 @@ import React from 'react'
 import BoxBasic from './boxcomponents/BoxBasic'
 import BoxSx from './boxcomponents/BoxSx'
 
+
+
 const page = () => {
   return (
     <div>
@@ -11,6 +13,7 @@ const page = () => {
       <Typography variant='h2'>This is box component</Typography>
       <BoxBasic/>
       <BoxSx/>
+     
       
     </div>
   )
