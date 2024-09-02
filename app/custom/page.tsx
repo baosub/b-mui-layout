@@ -1,6 +1,7 @@
 import { Typography } from '@mui/material'
 import React from 'react'
 import SxProp from './customcomponents/SxProp'
+import StyledCustomization from './customcomponents/StyledCustomization'
 
 const page = () => {
     return (
@@ -9,6 +10,7 @@ const page = () => {
                 How to customize
             </Typography>
             <SxProp/>
+            <StyledCustomization/>
 
         </>
     )
