@@ -11,6 +11,7 @@ const pages = [
     { title: 'Container', path: '/container' },
     { title: 'Grid', path: '/grid' },
     { title: 'Stack', path: '/stack' },
+    { title: 'BoxSx', path: '/box-sx-property' },
 
 ];
 
