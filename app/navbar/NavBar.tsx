@@ -12,7 +12,8 @@ const pages = [
     { title: 'Grid', path: '/grid' },
     { title: 'Stack', path: '/stack' },
     { title: 'BoxSx', path: '/box-sx-property' },
-    {title: 'Customization', path: '/custom'}
+    {title: 'Customization', path: '/custom'},
+    {title:'Typography', path: '/typo'}
 
 ];
 
