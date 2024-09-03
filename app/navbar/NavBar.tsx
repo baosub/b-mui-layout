@@ -13,7 +13,8 @@ const pages = [
     { title: 'Stack', path: '/stack' },
     { title: 'BoxSx', path: '/box-sx-property' },
     {title: 'Customization', path: '/custom'},
-    {title:'Typography', path: '/typo'}
+    {title:'Typography', path: '/typo'},
+    {title: 'BackGrounds', path: '/bground'}
 
 ];
 
@@ -24,8 +25,8 @@ const NavBar = () => {
 
     const toggleMenu = () => setOpen(!open);
     return (
-        <Box >
-            {open ? (<Box sx={{ width: '100vw', height: '100vh', bgcolor: 'grey' }} >
+        <Box sx={{height: '50px'}}>
+            {open ? (<Box sx={{ width: '100vw', height: '100vh', bgcolor: 'grey', position: 'absolute' }} >
                 <Box>
                     <button onClick={toggleMenu}>cerrar</button>
                 </Box>
