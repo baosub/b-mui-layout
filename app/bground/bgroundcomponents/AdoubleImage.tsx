@@ -47,9 +47,9 @@ const AdoubleImage = () => {
                     position: 'absolute',
                     top: '0',
                     right: '0',
-                    width: '200px', // Ajusta el tamaño según tus necesidades
-                    height: '200px',
-                    backgroundImage: 'url(/images/caracol.svg)', // Reemplaza con tu archivo SVG rotatorio
+                    width: '800px', // Ajusta el tamaño según tus necesidades
+                    height: '800px',
+                    backgroundImage: 'url(/images/caracolito.svg)', // Reemplaza con tu archivo SVG rotatorio
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     animation: `${rotateAnimation} 10s linear infinite`, // Aplica la animación de rotación
@@ -61,7 +61,7 @@ const AdoubleImage = () => {
                 sx={{
                     width: '100%',
                     height: '100vh',
-                    backgroundColor: 'rgba(255, 255, 255, .8)',
+                    backgroundColor: 'rgba(255, 255, 255, .6)',
                     borderRadius: '8px',
                     padding: '24px',
                     display: 'flex',
