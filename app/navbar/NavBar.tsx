@@ -15,7 +15,7 @@ const pages = [
     {title: 'Customization', path: '/custom'},
     {title:'Typography', path: '/typo'},
     {title: 'BackGrounds', path: '/bground'},
-    {title: 'DynamicDivs', path: '/dynamicdivs'}
+    
 
 ];
 
