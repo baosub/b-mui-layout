@@ -3,6 +3,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import AdoubleImage from './bgroundcomponents/AdoubleImage';
+import Banimations from './bgroundcomponents/Banimations';
 
 
 
@@ -59,6 +60,7 @@ sx={{
 </Box>
 
 <AdoubleImage/>
+<Banimations/>
         
         </>
         
