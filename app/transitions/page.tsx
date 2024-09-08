@@ -4,6 +4,7 @@ import FadeExample from './transcomponents/Bfade'
 import GrowExample from './transcomponents/Cgrow'
 import SlideExample from './transcomponents/Dslide'
 
+
 const page = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const page = () => {
     <FadeExample/>
     <GrowExample/>
     <SlideExample/>
+    
       
     </>
   )
